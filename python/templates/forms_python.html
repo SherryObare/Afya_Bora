@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles_form.css') }}">
+    </head>
+    <body>
+        <div id="registration_form">
+            <form id="registration" method="POST" action="/submit">
+                <p>Register Patient</p>
+                <label id='id-label' for='id'>PatientID
+                    <input id='id' type='text' name='id' required/>
+                </label>
+                <label id='f_name-label' for='f_name'>First Name
+                    <input id='f_name' name='f_name' type='text'/>
+                </label>
+                <label id='m_name-label' for='m_name'>Middle Name
+                    <input id='m_name' type='text' name="m_name" />
+                </label>
+                <label id='surname-label' for='surname'>Surname
+                    <input id='surname' type='text' name="surname" />
+                </label>
+                <label id='dob-label' for='dob'>Date of Birth
+                    <input id='dob' type='date' name="dob" />
+                </label>
+                <label for='gender'>Gender
+                    <select id='gender' name="gender">
+                      <option value="">Select gender</option>
+                      <option value='F'>Female</option>
+                      <option value='M'>Male</option>
+                      <option value='B'>Bisexual</option>
+                    </select>
+                </label>
+                <label for='county'>County
+                    <select id='county' name="county">
+                      <option value="">Select county</option>
+                      <option value='Nairobi'>Nairobi</option>
+                      <option value='Nakuru'>Nakuru</option>
+                      <option value='Kisumu'>Kisumu</option>
+                    </select>
+                </label>
+                <div class='form-control'>
+                    <button id='submit' type='submit'>Send</button>
+                    <button id="clear">Clear</button>
+                </div>
+            </form>
+        </div>
+      
+    </body>
+</html>

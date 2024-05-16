@@ -1,0 +1,45 @@
+p{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 8px;
+    margin-bottom: 40px;
+    border-bottom: solid black;
+    background-color: burlywood;
+    padding-bottom: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 40px;
+    padding: 0 60px;
+}
+label:last-of-type {
+    margin-bottom: 0;
+}
+#registration_form{
+    width: 50%;
+    margin: 50px auto;
+    border: solid black;
+}
+input{
+    margin-left: 40px;
+    
+}
+#f_name, #m_name {
+    width: 20rem;
+}
+.form-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 20%;
+    border: 1px solid black;
+    background-color: white;
+}
+#submit {
+    margin-right: 3px;
+}

@@ -1,0 +1,68 @@
+p{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 8px;
+    margin-bottom: 40px;
+    border-bottom: solid black;
+    background-color: burlywood;
+    padding-bottom: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 60px;
+}
+label:last-of-type {
+    margin-bottom: 30px;
+}
+#registration_form{
+    width: 50%;
+    margin: 50px auto;
+    border: solid black;
+}
+input, select{
+    margin-left: 40px;   
+}
+#f_name, #m_name, #surname, #dob, #gender, #county, #id {
+    width: 20rem;
+    height: 1.5rem;
+}
+.form-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+#submit {
+    margin-right: 10px;
+}
+/*.error {
+    border-color: red;
+}
+.error-message {
+color: red;
+margin-top: 5px;
+}
+#records-button{
+    position: fixed;
+    top: 0;
+    left: 5;
+    background-color: burlywood;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 10rem;
+}*/
+#records-button{
+    margin-left: 10px;
+}
+#records-button a{
+    text-decoration: none;
+    color: black;
+}
